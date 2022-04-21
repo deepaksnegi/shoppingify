@@ -1,0 +1,41 @@
+.header_text {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.header_text h5 {
+    font-size: 26px;
+}
+
+.header_logo_text {
+    color: #f9a109;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.header_search {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    padding: 25px 20px;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+}
+
+.header_search input {
+    border: none;
+    outline: none;
+    margin-left: 10px;
+}
+
+.header_search:focus-within {
+    outline: 2px solid #f9a109;
+}
+
+@media screen and (min-width: 600px) {
+    .header_text {
+        width: 50%;
+        margin-bottom: 0;
+    }
+}

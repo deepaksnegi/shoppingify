@@ -1,0 +1,57 @@
+.additem_container {
+    padding: 20px 20px;
+    width: 25vw;
+}
+
+.additem_heading {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.additem_container input {
+    border: 2px solid #bdbdbd;
+    border-radius: 12px;
+    padding: 15px 20px;
+}
+
+.additem_container textarea {
+    border: 2px solid #bdbdbd;
+    border-radius: 12px;
+    padding: 10px 20px;
+    resize: none;
+}
+
+.additem_container input:focus {
+    border: 2px solid #f9a109;
+}
+
+.additem_container textarea:focus {
+    border: 2px solid #f9a109;
+}
+
+.additem_save {
+    background: #f9a109;
+    border-radius: 12px;
+    color: #fff;
+    background: #f9a109;
+    border-radius: 12px;
+}
+
+.additem_options {
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.04);
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.additem-selected {
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.additem-selected:hover {
+    background: #f2f2f2;
+}
